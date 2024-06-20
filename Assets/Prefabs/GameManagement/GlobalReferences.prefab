@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4061889383799377882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4061889383799377892}
+  - component: {fileID: 4061889383799377883}
+  - component: {fileID: 4061889383799377893}
+  - component: {fileID: 4061889383799377894}
+  - component: {fileID: 4061889383799377895}
+  m_Layer: 0
+  m_Name: GlobalReferences
+  m_TagString: GlobalRef
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4061889383799377892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4061889383799377882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4061889383799377883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4061889383799377882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a26baaee0181a4993bc2cd0f184307, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletImpactEffectPrefab: {fileID: 8336518781581275007, guid: 9291de2eca7e612429a09a967270d9cc, type: 3}
+--- !u!114 &4061889383799377893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4061889383799377882}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6711ad090f5644c468cabab8a6d21805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawner: {fileID: 6805742800166231277, guid: e4d2c0f32e1b74441a2da5a7d6f81592, type: 3}
+  bullet: {fileID: 0}
+  weapon: {fileID: 0}
+--- !u!114 &4061889383799377894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4061889383799377882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e417c9d38738b4546933525112b9d6f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}
+  settingsMenu: {fileID: 0}
+--- !u!114 &4061889383799377895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4061889383799377882}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 483def5f8b914dc4d98da8008059ee07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelUpMenu: {fileID: 0}
+  player: {fileID: 0}
+  weapon: {fileID: 0}
+  bullet: {fileID: 6523418502252941405, guid: f91fec8421ae8fc43b5d6d68773f49cd, type: 3}
+  currMR: {fileID: 0}
+  mr:
+  - {fileID: 8963871646175420954, guid: 6dcef178245798146a1ccbb06ebaac9b, type: 3}
+  - {fileID: 187886855415882585, guid: e123c8315ea8ec549850839a138cb311, type: 3}
+  - {fileID: 1618416155792096163, guid: 4c359ab8daefeef48a149ad069ec567c, type: 3}
+  - {fileID: 2555022717340653197, guid: 2705bc81f806e3a478cebce98ca5d843, type: 3}
+  - {fileID: 7299379410765529138, guid: 6505d7b364fa2754cac151d41db6511c, type: 3}
+  - {fileID: 159444683912926194, guid: f5a8a5f876443e44ca7ba465c85b2f50, type: 3}
